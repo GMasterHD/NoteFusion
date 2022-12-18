@@ -1,18 +1,21 @@
 {
-  "name": "notefusion",
-  "version": "1.0.0",
-  "description": "A note taking app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://git.dragonsroar.de/GMasterHD/NoteFusion"
-  },
-  "author": "GMasterHD",
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^5.2.0"
-  }
+	"name": "notefusion",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"version": "1.0.0",
+	"description": "A note taking app",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GMasterHD/NoteFusion"
+	},
+	"author": "GMasterHD",
+	"license": "MIT",
+	"packageManager": "yarn@3.3.0",
+	"dependencies": {
+		"chalk": "^5.2.0"
+	}
 }
